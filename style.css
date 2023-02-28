@@ -1,4 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 body{
     color: deeppink;
     background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cabecera{
+    margin-bottom: 32px;
+    color: red;
+    background-color: blueviolet;
+    font-size: 16px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding: 4px;
+    height: 32px;
+    text-transform: uppercase;
+    font-weight: 900;
 }
